@@ -9,6 +9,7 @@ export default {
       },
       fontFamily: {
         manrope: ['Manrope', 'sans-serif'],
+        'pockota-medium': ['Pockota-Medium', 'sans-serif']
       }
     },
   },
