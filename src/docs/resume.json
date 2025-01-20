@@ -1,0 +1,26 @@
+{
+  "name": "Preethi Ramiah",
+  "email": "preethiramiah@gmail.com",
+  "about": {
+    "title": "Crafting Seamless Experiences: The Frontend Journey of Preethi Ramiah",
+    "linkedIn": "https://www.linkedin.com/in/preethiramiah/",
+    "github": "https://github.com/preethiramiah",
+    "description": "9 years of experience in creating responsive, user-friendly web apps. Go-to expert for resolving long-standing, complex issues through in-depth analysis and debugging."
+  },
+  "carousel": {
+    "content": [{
+      "text": "React",
+      "image": "../assets/images/react.png"
+    }, {
+      "text": "Typescript",
+      "image": "../assets/images/tailwindcss.svg"
+    }, {
+      "text": "HTML"
+    }, {
+      "text": "CSS"
+    }, {
+      "text": "JavaScript"
+    }]
+  },
+  "skills": {}
+}

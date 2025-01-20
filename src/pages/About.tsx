@@ -2,6 +2,7 @@ import Coder from '../assets/images/coder.png'
 import DownloadButton from '../components/DownloadButton'
 import GithubButton from '../components/GithubButton'
 import LinkedInButton from '../components/LinkedInButton'
+import { About as AboutData } from '../model'
 
 const AvailableToWork = () => {
   return (
@@ -18,21 +19,22 @@ const AvailableToWork = () => {
   )
 }
 
-const About = () => {
+const About = ({ about }: { about: AboutData }) => {
+  const { title, description, linkedIn, github } = about
   return (
-    <div className='relative flex flex-col items-center justify-center gap-6 pt-28'>
+    <div className='relative flex flex-col items-center justify-center gap-6 pt-24'>
       <div className='flex flex-col items-center justify-center gap-0'>
         <img alt='coder' src={Coder} className='w-24' />
         <AvailableToWork />
       </div>
-      <p className='font-pockota-medium text-white text-4xl'>Frontend Engineer</p>
+      <p className='font-pockota-medium text-white text-4xl max-w-80 md:max-w-md lg:max-w-xl'>{title}</p>
       <p className='font-manrope text-[rgba(255,255,255,0.4)] text-[16px] font-semibold leading-6 max-w-80 md:max-w-md lg:max-w-xl'>
-        9 years of experience in creating responsive, user-friendly web apps. Go-to expert for resolving long-standing, complex issues through in-depth analysis and debugging.
+        {description}
       </p>
-      <div className='flex gap-3 justify-center items-center'>
+      <div className='flex gap-4 mt-4 justify-center items-center'>
         <DownloadButton />
-        <GithubButton />
-        <LinkedInButton />
+        <GithubButton link={github} />
+        <LinkedInButton link={linkedIn} />
       </div>
     </div>
   )
