@@ -1,8 +1,8 @@
 const Menu = () => {
   return (
-    <header>
+    <header className="fixed top-5 z-50">
       <nav
-        className='z-50 fixed left-1/2 -translate-x-1/2 mx-auto flex gap-5 w-max items-center justify-between p-3 lg:px-8 rounded-full bg-[#ffffff14]
+        className='flex gap-5 w-max items-center justify-between p-3 lg:px-8 rounded-full bg-[#ffffff14]
           font-manrope font-bold text-sm text-[#ffffffcc] border-x-[0.5px] border-y-[0.5px] border-[rgb(83,80,80)] backdrop-blur-md
           shadow-[-1px_2px_12px_0px_rgba(0,0,0,0.1)]'
         aria-label='Menu'

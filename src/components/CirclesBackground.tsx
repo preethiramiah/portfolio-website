@@ -4,7 +4,7 @@ import LightSource from './LightSource'
 
 const CirclesBackground = ({ children }: { children: ReactElement }) => {
   return (
-    <div>
+    <div className='flex flex-col items-center justify-center w-screen h-screen'>
       <div className='absolute opacity-15 inset-[0_0_-100px]'>
         <div className='bg-noise bg-repeat w-full h-full opacity-40 absolute top-0 bottom-0 left-0 right-0 bg-[size:128px]' />
       </div>

@@ -9,17 +9,21 @@
   },
   "carousel": {
     "content": [{
-      "text": "React",
-      "image": "../assets/images/react.png"
+      "text": "React"
     }, {
-      "text": "Typescript",
-      "image": "../assets/images/tailwindcss.svg"
+      "text": "Tailwind CSS"
     }, {
       "text": "HTML"
     }, {
       "text": "CSS"
     }, {
       "text": "JavaScript"
+    }, {
+      "text": "Material UI"
+    }, {
+      "text": "Bootstrap"
+    }, {
+      "text": "Angular JS"
     }]
   },
   "skills": {}
