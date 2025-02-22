@@ -1,7 +1,7 @@
 const DownloadButton = () => {
   const downloadResume = () => {
     const link = document.createElement('a')
-    link.href = './docs/PreethiRamiahResume.pdf'
+    link.href = './src/docs/PreethiRamiahResume.pdf'
     link.download = 'PreethiRamiahResume.pdf'
     document.body.appendChild(link)
     link.click()
