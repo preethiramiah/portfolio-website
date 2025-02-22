@@ -26,5 +26,104 @@
       "text": "Angular JS"
     }]
   },
-  "skills": {}
+  "skills": [{
+      "title": "Languages",
+      "content": [{
+        "text": "HTML",
+        "icon": "src/assets/images/html.png",
+        "experience": 9,
+        "level": 9
+      }, {
+        "text": "CSS",
+        "icon": "src/assets/images/css.svg",
+        "experience": 9,
+        "level": 8
+      }, {
+        "text": "JavaScript",
+        "icon": "src/assets/images/javascript.svg",
+        "experience": 9,
+        "level": 8
+      }]
+    }, {
+      "title": "Frameworks and Libraries",
+      "content": [{
+        "text": "React",
+        "icon": "src/assets/images/react.svg",
+        "experience": 6,
+        "level": 8
+      }, {
+        "text": "Material UI",
+        "icon": "src/assets/images/material-ui.svg",
+        "experience": 6,
+        "level": 8
+      }, {
+        "text": "Bootstrap",
+        "icon": "src/assets/images/bootstrap.svg",
+        "experience": 6,
+        "level": 8
+      }, {
+        "text": "Tailwind CSS",
+        "icon": "src/assets/images/tailwind-css.svg",
+        "experience": 2,
+        "level": 6
+      }, {
+        "text": "Angular",
+        "icon": "src/assets/images/angular.svg",
+        "experience": 1,
+        "level": 5
+      }, {
+        "text": "D3 Js",
+        "icon": "src/assets/images/d3js.svg",
+        "experience": 1,
+        "level": 5
+      }, {
+        "text": "Chart Js",
+        "icon": "src/assets/images/chartjs.svg",
+        "experience": 1,
+        "level": 5
+      }, {
+        "text": "Plotly Js",
+        "icon": "src/assets/images/plotly.svg",
+        "experience": 1,
+        "level": 5
+      }, {
+        "text": "RxJS",
+        "icon": "src/assets/images/rxjs.svg",
+        "experience": 1,
+        "level": 5
+      }, {
+        "text": "PrimeNG",
+        "icon": "src/assets/images/primeng.svg",
+        "experience": 1,
+        "level": 7
+      }]
+    }, {
+      "title": "Tools and Platforms",
+      "content": [{
+        "text": "Git",
+        "icon": "src/assets/images/git.svg",
+        "experience": 6,
+        "level": 8
+      }, {
+        "text": "Github",
+        "icon": "src/assets/images/github.svg",
+        "experience": 6,
+        "level": 8
+      }, {
+        "text": "Figma",
+        "icon": "src/assets/images/figma.svg",
+        "experience": 6,
+        "level": 6
+      }, {
+        "text": "Auth0",
+        "icon": "src/assets/images/auth0.svg",
+        "experience": 6,
+        "level": 7
+      }, {
+        "text": "Dato CMS",
+        "icon": "src/assets/images/datocms.svg",
+        "experience": 1,
+        "level": 7
+      }]
+    }]
 }

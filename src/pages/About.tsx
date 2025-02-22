@@ -22,16 +22,16 @@ const AvailableToWork = () => {
 const About = ({ about }: { about: AboutData }) => {
   const { title, description, linkedIn, github } = about
   return (
-    <div className='relative flex flex-col items-center justify-center gap-6 pt-24'>
+    <div className='relative flex flex-col items-center justify-center gap-8 pt-32'>
       <div className='flex flex-col items-center justify-center gap-0'>
         <img alt='coder' src={Coder} className='w-24' />
         <AvailableToWork />
       </div>
       <p className='font-pockota-medium text-white text-4xl max-w-80 md:max-w-md lg:max-w-xl'>{title}</p>
-      <p className='font-manrope text-[rgba(255,255,255,0.4)] text-[16px] font-semibold leading-6 max-w-80 md:max-w-md lg:max-w-xl'>
+      <p className='font-manrope text-grey-custom text-[16px] font-semibold leading-6 max-w-80 md:max-w-md lg:max-w-xl'>
         {description}
       </p>
-      <div className='flex gap-4 mt-4 justify-center items-center'>
+      <div className='flex gap-4 mt-8 justify-center items-center'>
         <DownloadButton />
         <GithubButton link={github} />
         <LinkedInButton link={linkedIn} />

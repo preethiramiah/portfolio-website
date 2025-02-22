@@ -12,7 +12,33 @@ const Carousel = ({ content }: { content: CarouselContent[] }) => {
     cssEase: 'linear',
     infinite: true,
     arrows: false,
-    variableWidth: true
+    variableWidth: true,
+    responsive: [
+      {
+        breakpoint: 1280,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 3,
+          infinite: true,
+          dots: true
+        }
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+          initialSlide: 2
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      }
+    ]
   }
 
   return (
@@ -21,7 +47,7 @@ const Carousel = ({ content }: { content: CarouselContent[] }) => {
         {content.map((item: CarouselContent, index) => {
           const { text, image } = item
           return (
-            <div key={`carousel-content-${index}`} className='w-fit bg-gradient-to-r from-[#0077b5] from-50% via-red-700 via-60% to-[#61ffb8] to-90% inline-block text-transparent bg-clip-text'>
+            <div key={`carousel-content-${index}`} className='w-fit bg-gradient-to-r from-[#0077b5] from-50% via-red-700 via-60% to-star-green to-90% inline-block text-transparent bg-clip-text'>
               {image ? <img alt={text} src={image} className='h-8 w-fit' /> : <p className='font-extrabold text-3xl ml-20'>{text}</p>}
             </div>
           )
