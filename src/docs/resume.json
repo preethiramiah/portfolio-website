@@ -27,103 +27,114 @@
     }]
   },
   "skills": [{
-      "title": "Languages",
-      "content": [{
-        "text": "HTML",
-        "icon": "src/assets/images/html.png",
-        "experience": 9,
-        "level": 9
-      }, {
-        "text": "CSS",
-        "icon": "src/assets/images/css.svg",
-        "experience": 9,
-        "level": 8
-      }, {
-        "text": "JavaScript",
-        "icon": "src/assets/images/javascript.svg",
-        "experience": 9,
-        "level": 8
-      }]
+    "title": "Languages",
+    "content": [{
+      "text": "HTML",
+      "icon": "htmlIcon",
+      "experience": 9,
+      "level": 9
     }, {
-      "title": "Frameworks and Libraries",
-      "content": [{
-        "text": "React",
-        "icon": "src/assets/images/react.svg",
-        "experience": 6,
-        "level": 8
-      }, {
-        "text": "Material UI",
-        "icon": "src/assets/images/material-ui.svg",
-        "experience": 6,
-        "level": 8
-      }, {
-        "text": "Bootstrap",
-        "icon": "src/assets/images/bootstrap.svg",
-        "experience": 6,
-        "level": 8
-      }, {
-        "text": "Tailwind CSS",
-        "icon": "src/assets/images/tailwind-css.svg",
-        "experience": 2,
-        "level": 6
-      }, {
-        "text": "Angular",
-        "icon": "src/assets/images/angular.svg",
-        "experience": 1,
-        "level": 5
-      }, {
-        "text": "D3 Js",
-        "icon": "src/assets/images/d3js.svg",
-        "experience": 1,
-        "level": 5
-      }, {
-        "text": "Chart Js",
-        "icon": "src/assets/images/chartjs.svg",
-        "experience": 1,
-        "level": 5
-      }, {
-        "text": "Plotly Js",
-        "icon": "src/assets/images/plotly.svg",
-        "experience": 1,
-        "level": 5
-      }, {
-        "text": "RxJS",
-        "icon": "src/assets/images/rxjs.svg",
-        "experience": 1,
-        "level": 5
-      }, {
-        "text": "PrimeNG",
-        "icon": "src/assets/images/primeng.svg",
-        "experience": 1,
-        "level": 7
-      }]
+      "text": "CSS",
+      "icon": "cssIcon",
+      "experience": 9,
+      "level": 8
     }, {
-      "title": "Tools and Platforms",
-      "content": [{
-        "text": "Git",
-        "icon": "src/assets/images/git.svg",
-        "experience": 6,
-        "level": 8
-      }, {
-        "text": "Github",
-        "icon": "src/assets/images/github.svg",
-        "experience": 6,
-        "level": 8
-      }, {
-        "text": "Figma",
-        "icon": "src/assets/images/figma.svg",
-        "experience": 6,
-        "level": 6
-      }, {
-        "text": "Auth0",
-        "icon": "src/assets/images/auth0.svg",
-        "experience": 6,
-        "level": 7
-      }, {
-        "text": "Dato CMS",
-        "icon": "src/assets/images/datocms.svg",
-        "experience": 1,
-        "level": 7
-      }]
+      "text": "Javascript",
+      "icon": "javascriptIcon",
+      "experience": 9,
+      "level": 8
     }]
+  }, {
+    "title": "Frameworks and Libraries",
+    "content": [{
+      "text": "React",
+      "icon": "reactIcon",
+      "experience": 6,
+      "level": 8
+    }, {
+      "text": "Material UI",
+      "icon": "materialIcon",
+      "experience": 6,
+      "level": 8
+    }, {
+      "text": "Bootstrap",
+      "icon": "bootstrapIcon",
+      "experience": 6,
+      "level": 8
+    }, {
+      "text": "Tailwind CSS",
+      "icon": "tailwindIcon",
+      "experience": 2,
+      "level": 6
+    }, {
+      "text": "Angular",
+      "icon": "angularIcon",
+      "experience": 1,
+      "level": 5
+    }, {
+      "text": "D3 Js",
+      "icon": "d3jsIcon",
+      "experience": 1,
+      "level": 5
+    }, {
+      "text": "Chart Js",
+      "icon": "chartjsIcon",
+      "experience": 1,
+      "level": 5
+    }, {
+      "text": "Plotly Js",
+      "icon": "plotlyIcon",
+      "experience": 1,
+      "level": 5
+    }, {
+      "text": "RxJS",
+      "icon": "rxjsIcon",
+      "experience": 1,
+      "level": 5
+    }, {
+      "text": "PrimeNG",
+      "icon": "primengIcon",
+      "experience": 1,
+      "level": 7
+    }]
+  }, {
+    "title": "Tools and Platforms",
+    "content": [{
+      "text": "Git",
+      "icon": "gitIcon",
+      "experience": 6,
+      "level": 8
+    }, {
+      "text": "Github",
+      "icon": "githubIcon",
+      "experience": 6,
+      "level": 8
+    }, {
+      "text": "Figma",
+      "icon": "figmaIcon",
+      "experience": 6,
+      "level": 6
+    }, {
+      "text": "Auth0",
+      "icon": "auth0Icon",
+      "experience": 6,
+      "level": 7
+    }, {
+      "text": "Dato CMS",
+      "icon": "datoCMSIcon",
+      "experience": 1,
+      "level": 7
+    }]
+  }],
+  "projects": [{
+    "name": "Course Enrollment",
+    "company": "Outlier.org",
+    "year": 2022,
+    "techStack": ["React", "Jest", "React Testing Library", "Cypress", "Dato CMS", "Node", "Express", "Redis", "Google Cloud Platform", "Auth0"],
+    "url": "https://dashboard.outlier.org/",
+    "image": "src/assets/images/portfolio/course-enrollment.png",
+    "responsibilities": [
+      "Developed a course enrollment module for Outlier.org, an LMS that offers high-quality, university-level courses and transferrable credits."
+    ]
+  }]
 }

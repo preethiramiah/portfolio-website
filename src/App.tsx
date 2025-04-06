@@ -5,6 +5,7 @@ import About from './pages/About'
 import Menu from './pages/Menu'
 import Carousel from './components/Carousel'
 import Skills from './pages/Skills'
+import Projects from './pages/Projects'
 
 function App() {
   const {
@@ -20,6 +21,7 @@ function App() {
         <About about={about} />
         <Carousel content={content} />
         <Skills skills={skills} />
+        <Projects />
       </div>
     </>
   )
